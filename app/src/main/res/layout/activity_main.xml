@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    style="@style/SCREEN">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shape1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:flow_verticalGap="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/madeevolvesansbold"
+            android:text="@string/Add_Item"
+            android:textSize="30sp"
+            style="@style/ITEM_TEXT"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:hint="@string/Name_Of_Item"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="20.5sp"
+            style="@style/INPUT_TEXT"/>
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:hint="@string/Price_Of_Item"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:textSize="20.5sp"
+            style="@style/INPUT_TEXT"/>
+
+        <EditText
+            android:id="@+id/etSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:hint="@string/Size_Of_Item"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="20.5sp"
+            style="@style/INPUT_TEXT"/>
+
+        <TextView
+            android:id="@+id/etBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:hint="@string/Barcode"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textSize="20.5sp"
+            style="@style/INPUT_TEXT"/>
+
+        <Button
+            android:id="@+id/btnScaner"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/Barcode_Scanner"
+            style="@style/BUTTON"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/select"
+            style="@style/DROP_DOWN_BOX">
+
+            <AutoCompleteTextView
+                android:id="@+id/autocomplete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                style="@style/ITEM_TEXT"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnADD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="@string/Add"
+            android:textSize="20.5sp"
+            style="@style/BUTTON"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

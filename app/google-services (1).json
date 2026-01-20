@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "522683178651",
+    "project_id": "wecollect-f805c",
+    "storage_bucket": "wecollect-f805c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522683178651:android:e6342f44132c336460703e",
+        "android_client_info": {
+          "package_name": "com.example.wecollectfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522683178651-u5kchf7t0cp1m7ci4sj0on92vlp9nl54.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wecollectfirebase",
+            "certificate_hash": "3f54e5fc4c4784d0b29ccdf58473f72fa6a76cc3"
+          }
+        },
+        {
+          "client_id": "522683178651-7k9dk0l5e5bf68la7bdu66artt87isl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr-j-8irOJRN6zU_tH45rEcqYMGI_pHq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522683178651-7k9dk0l5e5bf68la7bdu66artt87isl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

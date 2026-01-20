@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity"
+    style="@style/SCREEN">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:rotationX="0"
+        android:rotationY="180"
+        android:src="@drawable/shape1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/custom_edittext"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/madeevolvesansbold"
+                android:text="@string/Register"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                style="@style/COLOR_TEXT"/>
+
+            <EditText
+                android:id="@+id/Register_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="35dp"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/madeevolvesansbold"
+                android:hint="Email"
+                android:padding="8dp"
+                android:singleLine="true"
+                style="@style/LOGIN_INPUT_TEXT"/>
+
+            <EditText
+                android:id="@+id/Register_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="8dp"
+                android:fontFamily="@font/madeevolvesansbold"
+                android:hint="@string/Password"
+                android:padding="8dp"
+                android:password="true"
+                android:singleLine="true"
+                style="@style/LOGIN_INPUT_TEXT" />
+
+            <Button
+                android:id="@+id/Register_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/madeevolvesansbold"
+                android:text="@string/Register"
+                android:textSize="18sp"
+                style="@style/BUTTON"/>
+
+            <TextView
+                android:id="@+id/LoginRedirectText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/madeevolvesansbold"
+                android:padding="8dp"
+                android:text="@string/Login_Here"
+                android:textSize="18sp"
+                style="@style/COLOR_TEXT"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

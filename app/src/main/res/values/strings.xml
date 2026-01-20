@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name" translatable="false">WeCollect</string>
+    <string name="select">Select store</string>
+    <string name="open_nav">Open Navigation Drawner</string>
+    <string name="close_nav">Close Navigation Drawner</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="heading_one">We are here to help you</string>
+    <string name="heading_two">Save your money</string>
+    <string name="heading_three">Start your journey</string>
+
+    <string name="desc_one">We are here to help you.</string>
+    <string name="desc_two">Using our app you can easily see where are the cheapest prices</string>
+    <string name="desc_three">It is time to live cheaper!</string>
+
+    <string name="Login">Login</string>
+    <string name="Password">Passwrod</string>
+    <string name="Forgot_Password">Forgot password</string>
+    <string name="Register_Here">Don\'t have account. Register here.</string>
+    <string name="Register">Register</string>
+    <string name="Login_Here">Already have an account? Login here</string>
+    <string name="Enter_Email">Enter your email address:</string>
+    <string name="Reset">Reset</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Add_Item">Add Item</string>
+    <string name="Name_Of_Item">Name of item</string>
+    <string name="Price_Of_Item">Price of item</string>
+    <string name="Size_Of_Item">Size of item</string>
+    <string name="Barcode">Barcode</string>
+    <string name="Barcode_Scanner">Barcode scanner</string>
+    <string name="Add">Add</string>
+    <string name="Item">Item:</string>
+    <string name="Price">Price:</string>
+    <string name="Size">Size:</string>
+    <string name="Store">Store:</string>
+    <string name="Update">Update</string>
+    <string name="Item_Updated">This item was updated:</string>
+
+</resources>

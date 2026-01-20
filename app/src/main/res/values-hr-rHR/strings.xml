@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select">Odaberi trgovinu</string>
+    <string name="open_nav">Otvori Navigacijski Crtež</string>
+    <string name="close_nav">Zatvori Navigacijski Crtež</string>
+    <string name="hello_blank_fragment">Hej prazni fragmentu</string>
+    <string name="heading_one">Mi smo tu da vam pomognemo</string>
+    <string name="heading_two">Uštedite svoj novac</string>
+    <string name="heading_three">Započnite svoj putovanje</string>
+    <string name="desc_one">Mi smo tu da vam pomognemo.</string>
+    <string name="desc_two">Korištenjem naše aplikacije lako možete vidjeti gdje su najpovoljnije cijene.</string>
+    <string name="desc_three">Vrijeme je za jetiniji život!</string>
+    <string name="Login">Prijava</string>
+    <string name="Password">Lozinka</string>
+    <string name="Forgot_Password">Zaboravili ste lozinku</string>
+    <string name="Register_Here">"Nemam račun. Registrirajte se ovdje "</string>
+    <string name="Register">Registriraj se</string>
+    <string name="Login_Here">" Već imate račun? Prijavite se ovdje"</string>
+    <string name="Enter_Email">Unesite svoju email adresu:</string>
+    <string name="Reset">Resetiraj</string>
+    <string name="Cancel">Odustani</string>
+    <string name="Add_Item">Dodaj Proizvod</string>
+    <string name="Name_Of_Item">Ime proizvoda</string>
+    <string name="Price_Of_Item">Cijena proizvoda</string>
+    <string name="Size_Of_Item">Veličina proizvoda</string>
+    <string name="Barcode">Barkod</string>
+    <string name="Barcode_Scanner">Barkod skener</string>
+    <string name="Add">Dodaj</string>
+    <string name="Item">Proizvod:</string>
+    <string name="Price">Cijena:</string>
+    <string name="Size">Veličina:</string>
+    <string name="Store">Trgovina:</string>
+    <string name="Update">Ažuriraj</string>
+    <string name="Item_Updated">Ovaj proizvod je ažuriran:</string>
+</resources>
